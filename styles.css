@@ -10,6 +10,24 @@ body {
 }
 
 img {
+    display: none;
     max-width: 100%;
 }
 
+@media only screen and (min-width: 800px){
+    body{
+        background-color: darkturquoise;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    body{
+        background-color: orchid;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    img{
+        display: block;    
+    }
+}
